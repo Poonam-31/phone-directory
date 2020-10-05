@@ -2,13 +2,23 @@ import React from 'react';
 
 
 //Function Component
+// const Header = function(){
+//     return(
+//         <div className="header" style={{textAlign:'center',padding:20,background:'#000',color:'#ffff',textTransform:'uppercase'}}>
+//              Phone directory
+//         </div>
+//     )
+// }
+
 const Header = function(){
+    const headerStyle = {textAlign:'center',padding:20,background:'#000',color:'#ffff',textTransform:'uppercase'};
     return(
-        <div className="header">
+        <div className="header" style={headerStyle}>
              Phone directory
         </div>
     )
 }
+
 
 //Class Component
 
